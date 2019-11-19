@@ -1,6 +1,23 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
 theme: jekyll-theme-minimal
+title: Magdalena Sendal # your name (or website title) here
+#logo: "/assets/img/logo_circle.png?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  <div class="logo-container">
+    <img src="assets/img/logo_circle.png" alt="?"/>
+  </div>
+  <b>Freelance Data Engineer / Data Scientist</b>
+  <br><br>
+  <b> Contact me: </b>
+  <br><br>
+
+  <div class="contact-panel">
+
+  <a href="https://www.linkedin.com/in/magdalena-sendal-b29b6531/"> <img class="contact-icon" src="assets/img/linkedin.png"> </a>
+  <a href="https://github.com/zelatyna"> <img class="contact-icon" src="assets/img/github.png"> </a>
+  <a href="mailto:magda.sendal@gmail.com"> <img class="contact-icon" src="assets/img/gmail.png"> </a>
+  <a href="https://www.instagram.com/magda_zelatyna/"> <img class="contact-icon" src="assets/img/instagram.png"> </a>
+  </div>
+  <br><br>
+
+show_downloads: false
+google_analytics:
