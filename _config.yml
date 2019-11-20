@@ -11,13 +11,28 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
 
   <div class="contact-panel">
+  <a href="mailto:magda.sendal@gmail.com">
+      <img class="contact-icon" src="assets/img/gmail.png">
+      <span>magda.sendal@gmail.com</span>
+  </a>
 
-  <a href="https://www.linkedin.com/in/magdalena-sendal-b29b6531/"> <img class="contact-icon" src="assets/img/linkedin.png"> </a>
-  <a href="https://github.com/zelatyna"> <img class="contact-icon" src="assets/img/github.png"> </a>
-  <a href="mailto:magda.sendal@gmail.com"> <img class="contact-icon" src="assets/img/gmail.png"> </a>
-  <a href="https://www.instagram.com/magda_zelatyna/"> <img class="contact-icon" src="assets/img/instagram.png"> </a>
+  <a href="https://www.linkedin.com/in/magdalena-sendal-b29b6531/">
+      <img class="contact-icon" src="assets/img/linkedin.png">
+      <span>linkedin.com/in/magdalena-sendal-b29b6531/</span>
+  </a>
+
+  <a href="https://github.com/zelatyna">
+      <img class="contact-icon" src="assets/img/github.png">
+      <span>github.com/zelatyna</span>
+  </a>
+  <a href="https://www.instagram.com/magda_zelatyna/">
+      <img class="contact-icon" src="assets/img/instagram.png">
+      <span>instagram.com/magda_zelatyna</span>
+  </a>
   </div>
   <br><br>
+
+  <button class = "print-button" onclick="window.print()">Print me</button>
 
 show_downloads: false
 google_analytics:

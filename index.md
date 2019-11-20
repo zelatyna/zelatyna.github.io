@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-# My Resume
-Click to expand and get more details
+<div class="main-title"> 
+    <h1> My Resume </h1>
+    Click to expand and get more details
+    <br><br>
+</div>
 
 ### Work experience 
 {% include work.html %}

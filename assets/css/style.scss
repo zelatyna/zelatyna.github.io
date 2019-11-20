@@ -12,6 +12,10 @@ body {
   justify-content: space-between;
 }
 
+.contact-panel a span {
+  display: none;
+}
+
 .contact-icon {
   width: 30px;
   height: 30px;
@@ -26,6 +30,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .header {
   display: flex;
 }
@@ -38,11 +43,55 @@ body {
 .title {
   display:block;
 }
-.details {
+.details{
   display: none;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 .tasks {
   font-size:0.9em;
 }
 
+.print-button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: #267cb9;
+    color: white;
+}
+
+footer {
+  display: none;
+}
+
+@media print {
+ .details {
+   display: block!important
+
+ }
+  .page-break{
+    page-break-after: always;
+  }
+  header{
+    position: static!important;
+  }
+
+  .contact-panel {
+    flex-direction: column;
+  }
+
+  .contact-panel a {
+    display: flex;
+  }
+
+  .contact-panel a span {
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+  .main-title {
+    display: none;
+  }
+  .print-button{
+    display: none;
+  }
+}
