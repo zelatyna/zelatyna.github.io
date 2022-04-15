@@ -19,5 +19,9 @@ layout: default
 {% include edu.html %}
 
 
+### Certifiaction
+{% include certification.html %}
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="assets/js/display.js"></script>
