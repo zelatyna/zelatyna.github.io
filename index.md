@@ -12,7 +12,7 @@ layout: default
 ### Work experience 
 {% include work.html %}
 
-### Certifiaction
+### Certification
 {% include certification.html %}
 
 ### Education
